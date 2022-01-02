@@ -34,10 +34,9 @@ class PlaceController {
 
     async getAll(req, res) {
 
-        let places
-        places = await Place.find() 
+        
                
-        return res.json({positions: places})
+        return res.json({positions: "places"})
     }
 }
 
