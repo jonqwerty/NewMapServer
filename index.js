@@ -18,7 +18,7 @@ app.use(fileUpload({}))
 
 app.get('/', placeController.getAll )
 
-
+ 
 app.post('/', placeController.create)
 
 
