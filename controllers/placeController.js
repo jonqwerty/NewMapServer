@@ -7,7 +7,7 @@ const fs = require('fs')
 class PlaceController {
     async create(req, res) {
 
-        return res.json({positions: places})
+        return res.json({message: 's working'})
     }
 
     async getAll(req, res) {
